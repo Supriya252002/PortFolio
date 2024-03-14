@@ -1,0 +1,121 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d3032;
+}
+
+.container {
+    max-width: 900px;
+    border-radius: 20px;
+    margin-top: 5%;
+    padding: 2%;
+    background-color: rgb(111, 157, 226);
+    display: flex;
+
+}
+
+.menu {
+    flex: 1;
+    padding: 20px;
+    height: 50%;
+    background-color: rgb(233, 209, 219);
+}
+
+.image-container {
+    max-width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact {
+    padding: 20px;
+    margin-top: 90px;
+}
+
+.contact h6 {
+    margin-top: 20px;
+}
+
+.contact span {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.col-1 {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.col-1 h1 {
+    color: blue;
+}
+
+.col-1 p {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form label {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    padding-top: 0;
+}
+
+.form-control {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+}
+
+textarea {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+}
+
+.btn {
+    background-color: rgb(34, 53, 227);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(114, 8, 212);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        padding: 1%;
+    }
+
+    .menu {
+        padding: 10px;
+    }
+
+    .col-1 {
+        padding: 20px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+}

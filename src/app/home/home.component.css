@@ -1,0 +1,131 @@
+/*Left Hand Side Starts*/
+
+.home {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    background-color: rgb(24, 24, 92);
+    padding: 0px 0px 0px 200px;
+}
+
+.home .content {
+    z-index: 1;
+}
+
+.home .content h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+    padding: 0 0 0 0;
+}
+
+.home .content h2 span {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ff7b00;
+}
+
+.home .content p {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+/*About Me Button*/
+.home .button {
+    margin-top: 50px;
+    margin-bottom: 90px;
+    position: absolute;
+    line-height: 0;
+    padding: 1rem 1.5rem;
+    border-radius: 4em;
+    color: #fff;
+    background: #681ccb;
+    box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+    font-family: "Nunito", sans-serif;
+}
+
+.home .button:hover {
+    background: #1a047e;
+}
+
+.home .button:hover i {
+    transform: translateX(5px);
+}
+
+.home .button svg {
+    padding-left: 5px;
+
+}
+
+.socials {
+    position: absolute;
+    /* Make the element positioned relative to its parent */
+    bottom: 0;
+    /* Place it at the bottom of the parent */
+    left: 0;
+    /* Place it at the left of the parent */
+    display: flex;
+    /* Arrange child elements vertically */
+    flex-direction: column;
+    /* Stack elements vertically */
+    list-style: none;
+    /* Remove default styling from the unordered list */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+
+}
+
+.socials .social-icons{
+    background-color: rgb(235, 128, 146);
+    padding: 10px 20px 10px 20px;
+}
+
+.socials li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+    
+.socials a svg {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+}
+
+.demo h1{
+    color: #fff;
+}
+
+.demo text{
+    color: red;
+    font-size: 20px;
+}
+.socials .social-icons li a {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.image-container {
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.image-container img {
+    position: relative;
+    height: 550px;
+    width: 500px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+span {
+    color: red;
+}

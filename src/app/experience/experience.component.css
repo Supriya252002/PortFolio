@@ -1,0 +1,53 @@
+.menu {
+    background-color: rgb(24, 24, 92);
+    height: 140vh;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.row {
+    max-width: 100%;
+
+}
+
+.card {
+    height: 100%;
+}
+
+.card-title {
+    color: rgb(175, 17, 243);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    padding-top: 10px;
+    color: black;
+    font-size: 15px;
+}
+
+.card-body span {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-btn-primary {
+    color: #fff;
+    padding: 0.9rem 1rem;
+    background-color: rgb(175, 17, 243);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn-btn-primary a {
+    text-decoration: none;
+}

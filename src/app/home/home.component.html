@@ -1,0 +1,36 @@
+<!---Left Hand Side-->
+<section class="home">
+
+    <div class="image-container"><img src="\assets\giphy.gif"></div>
+
+    <!---Right Hand side-->
+    <div class="content">
+        <h2>Hey<br>I'm Supriya Sawant<br><span>Software Engineer</span></h2>
+        <div class="demo">
+            <h1>I am into <span class="text">{{ typedText }}</span></h1>
+        </div>
+
+        <a routerLink="/about"><span class="button">About Me <fa-icon [icon]="fadownarrow"></fa-icon></span>
+        </a>
+        <br>
+    </div>
+    <div class="socials">
+        <ul class="social-icons">
+            <li><a class="linkedin" aria-label="LinkedIn"
+                    href="https://www.linkedin.com/in/supriya-sawant-88551121b/"><fa-icon
+                        [icon]="faLinkedin1"></fa-icon></a></li>
+            <li><a class="github" aria-label="GitHub" href="https://github.com/your-username" target="_blank"><fa-icon
+                        [icon]=" fagithub"></fa-icon></a>
+            </li>
+            <li><a class="telegram" aria-label="Telegram" href="https://t.me/your-handle" target="_blank"><fa-icon
+                        [icon]=" fatelegram"></fa-icon></a></li>
+            <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/your-handle"><fa-icon
+                        [icon]="faInstagram"></fa-icon></a></li>
+        </ul>
+
+    </div>
+
+
+</section>
+<app-about></app-about>
+<app-footer></app-footer>
