@@ -6,6 +6,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ContactnewComponent } from './contactnew/contactnew.component';
+import { ContactComponent } from './contact/contact.component';
 
 
   //Define Routes
@@ -18,6 +19,7 @@ import { ContactnewComponent } from './contactnew/contactnew.component';
     {path:'education',component:EducationComponent},
     {path:'experience',component:ExperienceComponent},
     {path:'contactnew',component:ContactnewComponent},
+    {path:'contact',component:ContactComponent},
 
 //Wildcard Path
 

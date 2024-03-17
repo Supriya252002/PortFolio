@@ -1,21 +1,16 @@
+/* Base styles */
 .menu {
     background-color: rgb(24, 24, 92);
-    height: 140vh;
+    padding: 50px;
 }
 
 .container {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 h1 {
     color: #fff;
     text-align: center;
-    padding: 10px;
-}
-
-.row {
-    max-width: 100%;
-
 }
 
 .card {
@@ -40,14 +35,42 @@ h1 {
     font-size: 18px;
 }
 
-.btn-btn-primary {
+.btn.btn-primary {
     color: #fff;
     padding: 0.9rem 1rem;
     background-color: rgb(175, 17, 243);
     border-radius: 10px;
     text-decoration: none;
+    border: none;
 }
 
-.btn-btn-primary a {
-    text-decoration: none;
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding-top: 10px;
+    }
+
+    .card {
+        height: auto;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-body span {
+        font-size: 16px;
+    }
+
+    .btn.btn-primary {
+        padding: 0.7rem 0.8rem;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn.btn-primary {
+        padding: 0.5rem 0.6rem;
+        font-size: 12px;
+    }
 }

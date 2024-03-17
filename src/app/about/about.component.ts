@@ -14,4 +14,7 @@ export class AboutComponent implements OnInit {
     gsap.from(".resumebtn", { opacity: 0, y: 50, duration: 1, delay:3});
     gsap.from('.btn1',{opacity:0,y:-50,duration:1,delay:4});
   }
+  
 }
+
+

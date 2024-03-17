@@ -1,133 +1,34 @@
-
-.container {
-    max-width: 900px;
-    border-radius: 20px;
+.container{
+    padding-top: 50px;
+    max-width: 100%;
+    background-color: rgb(24, 24, 92);
+}
+.achievement {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .certificate-img {
+    max-width: 100%;
     height: auto;
-    margin-top: 5%;
-    margin-left: 15%;
-    padding: 2%;
-    background-color: rgb(103, 162, 250);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.menu {
-    padding: 20px;
-    background-color: rgb(233, 209, 219);
-}
-
-/*If i add image-container that is parent class 100% width then only their child will get proper css that is i can give img 100% width and in console it shows equal width for that container*/
-.container .image-container {
-    max-width: 100%;
-}
-
-.container .image-container img {
-    width: 100%;
-}
-
-.container .contact {
-    max-width: 100%;
-    padding: 20px;
-}
-
-.container .contact span {
-    font-size: 15px;
-    padding-left: 10px;
-}
-
-.col-1 {
-    max-width: 100%;
-    padding-left: 25%;
-}
-
-.col-1 h1 {
-    color: blue;
-}
-
-.col-1 p {
-    color: black;
-    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  .title {
+    font-size: 24px;
     font-weight: bold;
-}
-
-.form label {
-    font-size: 15px;
-    color: black;
-    font-weight: bold;
-}
-
-.form-control {
-    padding: 10px;
-    border-radius: 10px;
-    width: 900%;
-    margin: 10px;
-    border: none;
-}
-
-.btn {
-    background-color: rgb(34, 53, 227);
-    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
     text-align: center;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 20px;
-    color: #fff;
-    padding: 10px 20px 10px 20px;
-    outline: none;
-    border: none;
-}
-
-.btn:hover {
-    background-color: rgb(114, 8, 212);
-}
-
-@media screen and (max-width:600px) {
-    .container {
-        padding: 1%;
-        margin-left: 5%;
-        margin-top: 10%;
-        max-height: auto;
-    }
-
-    .menu {
-        padding: 10px;
-    }
-
-    .container .image-container {
-        max-width: 100%;
-    }
-
-    .container .image-container img {
-        max-width: 100%;
-    }
-
-
-    .container .contact span {
-        font-size: 10px;
-        padding: 0px;
-    }
-
-    .col-1 {
-        padding-left: 10%;
-    }
-
-    .form-control {
-        padding: 10px;
-        border-radius: 10px;
-        width: 70%;
-        border: none;
-    }
-
-    @media screen and (min-width:600px) {
-        .col-1 {
-            margin-right: 10%;
-        }
-
-        .form-control {
-            padding: 10px;
-            border-radius: 10px;
-            width: 70%;
-            border: none;
-        }
-    }
-}
+  }
+  .content {
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+    margin-top: 10px;
+  }

@@ -1,3 +1,4 @@
+/* Base styles for the timeline */
 .timeline {
     position: relative;
     max-width: 100%;
@@ -6,6 +7,7 @@
     padding: 10px;
 }
 
+/* Container styles */
 .container {
     position: relative;
     padding: 10px;
@@ -13,6 +15,7 @@
     width: 40%;
 }
 
+/* Education styles */
 .education {
     padding: 20px 30px;
     position: relative;
@@ -20,12 +23,14 @@
     font-size: 15px;
 }
 
+/* Left container styles */
 .left-container {
     position: relative;
     padding: 0px 20px 20px 10px;
-    margin-left:5%;
+    margin-left: 5%;
 }
 
+/* Right container styles */
 .right-container {
     position: relative;
     padding: 10px 0px 0px 10px;
@@ -37,6 +42,7 @@
     left: 20px;
 }
 
+/* Image styles */
 .container img {
     position: absolute;
     width: 50%;
@@ -45,6 +51,7 @@
     top: 10px;
 }
 
+/* Timeline separator styles */
 .timeline::after {
     content: '';
     position: absolute;
@@ -57,6 +64,7 @@
     animation: movedown 5s;
 }
 
+/* Content styles */
 .content {
     padding-right: 300px;
 }
@@ -89,6 +97,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* SVG styles */
 .education svg {
     width: 25px;
     height: 50px;
@@ -109,23 +118,29 @@
     margin-left: -25px;
 }
 
-@keyframes movedown {
-    0% {
-        margin-top: 0%;
-
-    }
-
-    100% {
-        margin-bottom: 100%;
-    }
-}
-
-@media screen and (max-width: 500px) {
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
     .timeline {
-        position: relative;
-        max-width: 50%;
-        background-color: rgb(24, 24, 92);
-        margin-top: 60px;
-        padding: 10px;
+        margin-top: 30px;
+    }
+    
+    .container {
+        width: 80%;
+    }
+
+    .left-container,
+    .right-container {
+        margin-left: 10%;
+    }
+
+    .content,
+    .content1 {
+        padding-right: 0;
+        margin-left: 0;
+    }
+
+    .education svg,
+    .right-container .education svg {
+        margin-left: 0;
     }
 }
