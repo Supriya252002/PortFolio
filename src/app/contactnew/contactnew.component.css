@@ -33,13 +33,37 @@
     border-radius: 10px;
 }
 
+/*Social Icons*/
+
+.social {
+    max-width: 90%;
+    padding-top: 40px;
+}
+
+.social h1 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social-icons {
+    background-color: rgb(228, 124, 124);
+    padding: 30px;
+}
+
+.social-icons fa-icon {
+    font-size: 40px;
+    padding-left: 30px;
+    color: #fff;
+}
+
 .contact {
     padding: 20px;
-    margin-top: 20px; /* Adjusted from 90px */
+    margin-top: 20px;
+   
 }
 
 .contact h6 {
-    margin-top: 10px; /* Adjusted from 20px */
+    margin-top: 10px;
 }
 
 .contact span {
@@ -50,7 +74,7 @@
 .col-1 {
     flex: 1;
     padding-left: 20px;
-    padding-right: 20px; /* Added padding right for spacing */
+    padding-right: 20px;
 }
 
 .col-1 h1 {
@@ -67,17 +91,21 @@
     font-size: 15px;
     color: black;
     font-weight: bold;
-    margin-bottom: 5px; /* Reduced margin */
+    margin-bottom: 5px;
 }
 
 .form-control,
 textarea {
-    padding: 8px; /* Reduced padding */
+    padding: 8px;
+    /* Reduced padding */
     border-radius: 10px;
-    width: calc(100% - 16px); /* Adjusted width for padding */
-    margin: 5px 0; /* Reduced margin */
+    width: calc(100% - 16px);
+    /* Adjusted width for padding */
+    margin: 5px 0;
+    /* Reduced margin */
     border: none;
-    box-sizing: border-box; /* Added box-sizing */
+    box-sizing: border-box;
+    /* Added box-sizing */
 }
 
 .btn {
@@ -96,6 +124,11 @@ textarea {
 
 .btn:hover {
     background-color: rgb(114, 8, 212);
+}
+
+.submitmsg {
+    color: #2d3032;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 600px) {

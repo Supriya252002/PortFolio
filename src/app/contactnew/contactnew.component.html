@@ -23,6 +23,14 @@
 
                 </div>
             </div>
+            <div class="social">
+                <h1>Connect With</h1>
+            <div class="social-icons">
+                <fa-icon [icon]="linkedin"></fa-icon>
+                <fa-icon [icon]="instagram"></fa-icon>
+                <fa-icon [icon]="github"></fa-icon>
+            </div>
+            </div>
         </div>
 
         <div class="col-1">
@@ -43,7 +51,8 @@
                 <textarea type="text" placeholder="Enter Your Feedback" formControlName="msg"></textarea><br><br>
 
             </form>
-            <button class="btn" (click)="Onsubmit()">Submit</button>
+            <button class="btn" (click)="Onsubmit()">Submit</button><br>
+            <p *ngIf="!issubmit" class="submitmsg">{{submitmsg}}</p>
         </div>
     </div>
 </div>

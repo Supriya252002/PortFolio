@@ -16,6 +16,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ReactiveFormsModule,FormsModule} from '@angular/forms';
 import { ContactnewComponent } from './contactnew/contactnew.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +29,7 @@ import { ContactnewComponent } from './contactnew/contactnew.component';
     FooterComponent,
     NavbarComponent,
     ContactnewComponent,
+  
  
   ],
   imports: [

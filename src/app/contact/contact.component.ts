@@ -6,7 +6,7 @@ import gsap from 'gsap';
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
-export class ContactComponent {
+export class ContactComponent implements OnInit {
   // contactform: FormGroup = new FormGroup(inject);
 
   // ngOnInit(): void {
@@ -26,4 +26,8 @@ export class ContactComponent {
   //   console.log(this.contactform.value);
   //   this.contactform.markAllAsTouched();
   // }
+  ngOnInit(): void {
+    gsap.from('.achievement', { opacity: 0, x: -200, duration: 1 })
+  }
+
 }
